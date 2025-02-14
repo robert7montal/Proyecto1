@@ -6,9 +6,35 @@
     <title>Leyendas del Fútbol</title>
 
     <style>
+
+        * {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         
         img.fotojugador {
            width: 100%;
+        }
+
+        div.player-grid{
+
+        }
+        div.player-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+
+        div.player-card {
+            margin:15px;
+            background-color: beige;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        div.player-card:hover {
+            transform: translateY(-5px) rotate(2deg) scale(1.05);
+            box-shadow: 2px 2px 2px black;
         }
 
     </style>
@@ -36,6 +62,67 @@
                     </ul>
                 </div>
             </div>
+            <div class = "player-card">
+                <img class="fotojugador" src="images/pele-1670369741960.webp">
+                <div class = "player-info">
+                    <h2>Pelé</h2>
+                    <p>Brasil</p>
+                    <ul>
+                        <li>3 Copas del mundo (1958, 1962, 1970)</li>
+                        <li>1279 goles en 1363 partidos</li>
+                        <li>Considerado "El Rey del Fútbol"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "player-card">
+                <img class="fotojugador" src="images/pele-1670369741960.webp">
+                <div class = "player-info">
+                    <h2>Pelé</h2>
+                    <p>Brasil</p>
+                    <ul>
+                        <li>3 Copas del mundo (1958, 1962, 1970)</li>
+                        <li>1279 goles en 1363 partidos</li>
+                        <li>Considerado "El Rey del Fútbol"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "player-card">
+                <img class="fotojugador" src="images/pele-1670369741960.webp">
+                <div class = "player-info">
+                    <h2>Pelé</h2>
+                    <p>Brasil</p>
+                    <ul>
+                        <li>3 Copas del mundo (1958, 1962, 1970)</li>
+                        <li>1279 goles en 1363 partidos</li>
+                        <li>Considerado "El Rey del Fútbol"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "player-card">
+                <img class="fotojugador" src="images/pele-1670369741960.webp">
+                <div class = "player-info">
+                    <h2>Pelé</h2>
+                    <p>Brasil</p>
+                    <ul>
+                        <li>3 Copas del mundo (1958, 1962, 1970)</li>
+                        <li>1279 goles en 1363 partidos</li>
+                        <li>Considerado "El Rey del Fútbol"</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "player-card">
+                <img class="fotojugador" src="images/pele-1670369741960.webp">
+                <div class = "player-info">
+                    <h2>Pelé</h2>
+                    <p>Brasil</p>
+                    <ul>
+                        <li>3 Copas del mundo (1958, 1962, 1970)</li>
+                        <li>1279 goles en 1363 partidos</li>
+                        <li>Considerado "El Rey del Fútbol"</li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
     </main>
 
